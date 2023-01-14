@@ -15,9 +15,9 @@ interface PaysTransferResponse {
 }
 
 interface PaysTransfer {
-  betweenCards: Item[];
-  banks: Item[];
-  creditCard: Item[];
+  betweenCards: ItemList;
+  banks: ItemList;
+  creditCard: ItemList;
 }
 
 interface SupportResponse {
@@ -26,8 +26,8 @@ interface SupportResponse {
 }
 
 interface Support {
-  lock: Item[];
-  changePass: Item[];
+  lock: ItemList;
+  changePass: ItemList;
 }
 
 export interface ListResponse {
@@ -37,9 +37,24 @@ export interface ListResponse {
   enterprises: ItemResponse[];
 }
 
+interface ItemList {
+  name: string;
+  item: Item[];
+}
+
+interface PaysTranferList {
+  name: string;
+  item: PaysTransfer[];
+}
+
+interface SupportList {
+  name: string;
+  item: Support[];
+}
+
 export interface List {
-  cardList: Item[];
-  paysTransfer: PaysTransfer[];
-  support: Support[];
-  enterprises: Item[];
+  cardList: ItemList;
+  paysTransfer: PaysTranferList;
+  support: SupportList;
+  enterprises: ItemList;
 }
