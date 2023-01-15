@@ -10,6 +10,7 @@ const ContainerSubNavbar = styled.div`
 `;
 
 const ContainerTextSubNavbar = styled.div`
+  cursor: pointer;
   padding: ${Spacing.Spacing0} ${Spacing.Spacing1};
   transition: border-bottom 0.3s ease-in-out;
   position: relative;
@@ -45,6 +46,7 @@ const ContainerSubList = styled.div`
   background-color: white;
   border: 1px solid ${Palette.BrandGray300};
   border-radius: 2px;
+  box-shadow: 0px 5px 20px -7px rgba(0,0,0,0.75);
   position: absolute;
   left: 0;
   right: 0;
@@ -53,6 +55,10 @@ const ContainerSubList = styled.div`
     border-bottom: 1px solid ${Palette.BrandGray300};
     margin: ${Spacing.Spacing0};
     padding: ${Spacing.Spacing1};
+
+    &:last-child{
+      border-bottom: none;
+    }
   }
 `;
 
