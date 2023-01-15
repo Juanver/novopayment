@@ -6,7 +6,7 @@ const ContainerApp = styled.div``;
 const ContentApp = styled.div`
   background-image: url(${bgContent});
   background-repeat: repeat-x;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 203px);
 `;
 
 export const StyledApp = {
