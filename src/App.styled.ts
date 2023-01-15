@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { Palette } from "./assets/palette/Palette";
-import bgContent from "./assets/bg-content.jpg"
+import bgContent from "./assets/bg-content.jpg";
 
 const ContainerApp = styled.div``;
 

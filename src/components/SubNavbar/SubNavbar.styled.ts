@@ -6,12 +6,33 @@ const ContainerSubNavbar = styled.div`
   display: flex;
   gap: ${Spacing.Spacing3};
   padding: ${Spacing.Spacing0} ${Spacing.Spacing4};
-  border-bottom: 1px solid ${Palette.BrandGray200};
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.6);
+  border-bottom: 2px solid ${Palette.BrandGray300};
 `;
 
 const ContainerTextSubNavbar = styled.div`
   padding: ${Spacing.Spacing0} ${Spacing.Spacing1};
+  transition: border-bottom 0.3s ease-in-out;
+  position: relative;
+  
+  &::after {
+    transition: opacity 0.2s ease-out;
+    background-color: ${Palette.BrandBlue};
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    content: "";
+  }
+  &:hover:after {
+    background-color: ${Palette.BrandBlue};
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    content: "";
+  }
 `;
 
 const TextSubNavbar = styled.p`
@@ -25,6 +46,8 @@ const ContainerSubList = styled.div`
   border: 1px solid ${Palette.BrandGray300};
   border-radius: 2px;
   position: absolute;
+  left: 0;
+  right: 0;
 
   p {
     border-bottom: 1px solid ${Palette.BrandGray300};

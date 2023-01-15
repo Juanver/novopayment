@@ -8,6 +8,7 @@ const ContainerFooter = styled.div`
   display: flex;
   justify-content: space-evenly;
   padding: ${Spacing.Spacing5} ${Spacing.Spacing2};
+  border-top: 3px solid ${Palette.BrandBlueLight};
   img {
     width: 80px;
   }
