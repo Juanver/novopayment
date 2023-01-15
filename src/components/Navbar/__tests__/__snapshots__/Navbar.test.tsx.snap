@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component Should render 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe fhPbsz"
+  >
+    <img
+      alt="Tu Prutect logo"
+    />
+    <div
+      class="sc-gswNZR dbKPCA"
+    >
+      <p>
+        USER NAME
+      </p>
+      <img
+        alt="Arrow down"
+      />
+    </div>
+  </div>
+</div>
+`;

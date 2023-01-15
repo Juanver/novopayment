@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Should render 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe ejgyAO"
+  >
+    <img
+      alt="Isotipo"
+    />
+    <p
+      class="sc-gswNZR dOzeMP"
+    >
+      <small>
+        ©
+         2023 
+        <span>
+          Novopayment Inc.
+           All rights reserved
+        </span>
+      </small>
+    </p>
+    <img
+      alt="Isotipo"
+    />
+  </div>
+</div>
+`;
