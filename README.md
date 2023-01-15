@@ -1,4 +1,4 @@
-<img src="./public/PrivateCEO" alt="Private CEO logo" title="Private CEO logo" width="200" />
+<img src="./public/PrivateCEO.svg" alt="Private CEO logo" title="Private CEO logo" width="200" />
 
 # Novopayment
 
